@@ -28,14 +28,6 @@
     width: 270px;
 }
 
-.feature__items {
-    margin-right: 30px;
-}
-
-.feature__items--technology {
-    margin-right: 0px;
-}
-
 .feature__box {
     display: flex;
     justify-content: center;
@@ -48,6 +40,6 @@
     text-align: center;
 }
 
-// .feature__items:not(:last-child) {
-//     margin-right: 30px;
-// }
+.feature__items:not(:last-child) {
+    margin-right: 30px;
+}

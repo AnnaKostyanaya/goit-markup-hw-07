@@ -19,3 +19,9 @@
     padding-bottom: 25px;
     @extend %link;
 }
+
+.logo--dark {
+    color: var(--white-fontcolor);
+    padding: 0;
+    margin-bottom: 20px;
+}

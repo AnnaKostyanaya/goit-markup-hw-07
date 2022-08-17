@@ -3,7 +3,7 @@
 }
 
 .clients__title {
-    @extend %%section-title;
+    @extend %section-title;
 }
 
 .clients__list {
@@ -46,7 +46,7 @@
     }
 }
 
-.clients__icon {
+.clients__items {
     &:hover,
     &:focus {
         border: 1px solid #2196F3;
