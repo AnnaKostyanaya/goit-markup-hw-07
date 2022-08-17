@@ -452,7 +452,6 @@ button:focus .icon-close {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
 .feature .title {
     font-size: 14px;
     font-weight: 700;
@@ -461,7 +460,7 @@ button:focus .icon-close {
     margin-bottom: 10px;
 }
 
-.feature-description {
+    .feature-description {
     color: var(--grey-fontcolor);
     line-height: 1.7;
 }

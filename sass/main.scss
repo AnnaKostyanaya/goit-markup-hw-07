@@ -1,9 +1,14 @@
 @import "./utils/vars";
-@import "./utils/vars";
 @import "./base/normalize";
 @import "./base/reset";
 @import "./utils/placeholders";
+@import "./utils/visually-hidden";
 @import "./base/container";
 @import "./layouts/page-header";
 @import "./components/logo";
+@import "./layouts/hero";
+@import "./components/button";
+@import "./components/modal-form";
+@import "./layouts/feature";
+
 

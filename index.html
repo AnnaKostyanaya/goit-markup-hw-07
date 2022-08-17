@@ -54,51 +54,51 @@
     </header>
     <main>
         <!-- Главный баннер -->
-        <section class="hero overlay">
-            <h1 class="hero title">Ефективні рішення<br>для вашого бізнесу</h1>
+        <section class="hero hero--overlay">
+            <h1 class="hero__title">Ефективні рішення<br>для вашого бізнесу</h1>
             <button data-modal-open type="button" class="button">Замовити послугу</button>
-            <div data-modal class="backdrop is-hidden">
+            <div data-modal class="modal__backdrop modal__backdrop--is-hidden">
                 <div class="modal">
-                    <button data-modal-close type="button" class="modal-button">
-                        <svg class="icon-close" width="11" height="11">
+                    <button data-modal-close type="button" class="modal__button">
+                        <svg class="modal__icon--close" width="11" height="11">
                             <use href="./images/sprite.svg#icon-vector"></use>
                         </svg>
                     </button>
-                    <form class="form">
-                        <p><b>Залиште свої дані, ми вам передзвонимо</b></p>
-                        <div class="form-field">
-                            <label class="form-label" for="name">Ім'я</label>
-                            <input class="form-input" type="text" name="name" id="name" autofocus />
-                            <svg class="icon-modal" width="18" height="18">
+                    <form class="modal__form">
+                        <p class="modal__title"><b>Залиште свої дані, ми вам передзвонимо</b></p>
+                        <div class="modal__field">
+                            <label class="modal__label" for="name">Ім'я</label>
+                            <input class="modal__input" type="text" name="name" id="name" autofocus />
+                            <svg class="modal__icon--change-color" width="18" height="18">
                                 <use href="./images/sprite.svg#icon-person-black"></use>
                             </svg>
                         </div>
-                        <div class="form-field">
-                            <label class="form-label" for="tel">Телефон</label>
-                            <input class="form-input" type="tel" name="tel" id="tel" />
-                            <svg class="icon-modal" width="18" height="18">
+                        <div class="modal__field">
+                            <label class="modal__label" for="tel">Телефон</label>
+                            <input class="modal__input" type="tel" name="tel" id="tel" />
+                            <svg class="modal__icon--change-color" width="18" height="18">
                                 <use href="./images/sprite.svg#icon-phone-black"></use>
                             </svg>
                         </div>
-                        <div class="form-field">
-                            <label class="form-label" for="email-form">Пошта</label>
-                            <input class="form-input" type="email" name="email" id="email-form" />
-                            <svg class="icon-modal" width="18" height="18">
+                        <div class="modal__field">
+                            <label class="modal__label" for="email-form">Пошта</label>
+                            <input class="modal__input" type="email" name="email" id="email-form" />
+                            <svg class="modal__icon--change-color" width="18" height="18">
                                 <use href="./images/sprite.svg#icon-email-black"></use>
                             </svg>
                         </div>
-                        <div class="form-field">
-                            <label class="form-label" for="coment">Коментар</label>
-                            <textarea class="form-input" name="coment" id="coment"
+                        <div class="modal__field">
+                            <label class="modal__label" for="coment">Коментар</label>
+                            <textarea class="modal__input modal__input--textarea" name="coment" id="coment"
                                 placeholder="Введіть текст"></textarea>
                         </div>
-                        <div class="form-checkbox">
-                            <span class="icon-check"></span>
+                        <div class="modal__checkbox">
+                            <span class="modal__icon--check"></span>
                             <input class="checkbox" type="checkbox" name="contract" id="contract" />
-                            <label class="form-label" for="contract">Погоджуюся з розсилкою та приймаю <a href="">Умови
+                            <label class="modal__label--checkbox" for="contract">Погоджуюся з розсилкою та приймаю <a class="modal__link" href="">Умови
                                     договору</a></label>
                         </div>
-                        <button class="form-btn" type="submit">Відправити</button>
+                        <button class="modal__btn" type="submit">Відправити</button>
                     </form>
                 </div>
             </div>
@@ -106,47 +106,47 @@
         <!-- Преимущества -->
         <section class="section">
             <div class="container">
-                <h2 class="section-title visually-hidden">Переваги</h2>
-                <ul class="list feature">
-                    <li class="feature-item attention">
-                        <div class="box">
-                            <svg class="icon-feature" width="70" height="70">
+                <h2 class="feature feature__visually-hidden">Переваги</h2>
+                <ul class="feature__list">
+                    <li class="feature__items feature__items--attention">
+                        <div class="feature__box">
+                            <svg class="feature__icon" width="70" height="70">
                                 <use href="./images/sprite.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="feature-description">Ідейні міркування, і навіть початок повсякденної роботи з
+                        <h3 class="feature__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="feature__description">Ідейні міркування, і навіть початок повсякденної роботи з
                             формування позиції.
                         </p>
                     </li>
-                    <li class="feature-item punctuality">
+                    <li class="feature-items feature__items--punctuality">
                         <div class="box">
-                            <svg class="icon-feature" width="70" height="70">
+                            <svg class="feature__icon" width="70" height="70">
                                 <use href="./images/sprite.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="feature-description">Завдання організації, особливо рамки і місце навчання кадрів
+                        <h3 class="feature__title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="feature__description">Завдання організації, особливо рамки і місце навчання кадрів
                             тягне у себе.</p>
                     </li>
-                    <li class="feature-item planning">
+                    <li class="feature-items feature__items--planning">
                         <div class="box">
-                            <svg class="icon-feature" width="70" height="70">
+                            <svg class="feature__icon" width="70" height="70">
                                 <use href="./images/sprite.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="title">ПЛАНУВАННЯ</h3>
-                        <p class="feature-description">Так само консультація з широким активом значною мірою зумовлює.
+                        <h3 class="feature__title">ПЛАНУВАННЯ</h3>
+                        <p class="feature__description">Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
-                    <li class="feature-item technology">
+                    <li class="feature-items feature__items--technology">
                         <div class="box">
-                            <svg class="icon-feature" width="70" height="70">
+                            <svg class="feature__icon" width="70" height="70">
                                 <use href="./images/sprite.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="feature-description">Значимість цих проблем настільки очевидна, що реалізація планових
+                        <h3 class="feature__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="feature__description">Значимість цих проблем настільки очевидна, що реалізація планових
                             завдань.</p>
                     </li>
                 </ul>
