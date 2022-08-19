@@ -393,7 +393,7 @@ img {
 }
 
 .contacts__list--link {
-  display: block;
+  display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -633,13 +633,18 @@ img {
 .modal__input--textarea {
   width: 448px;
   min-height: 120px;
-  padding: 12px 16px;
+  padding-top: 12px;
+  padding-left: 16px;
   font-family: inherit;
   font-size: 12px;
   line-height: 1.17;
   text-align: left;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
 }
 
@@ -682,6 +687,7 @@ img {
   font-family: inherit;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .modal__link {
@@ -696,7 +702,9 @@ img {
 }
 
 .modal__input:hover,
-.modal__input:focus {
+.modal__input--textarea:hover,
+.modal__input:focus,
+.modal__input--textarea:focus {
   outline: 1px solid rgb(33, 150, 243);
 }
 
@@ -925,8 +933,8 @@ img {
   fill: #2196F3;
 }
 
-.clients__items:hover, .clients__items:focus {
-  border: 1px solid #2196F3;
+.clients__link:hover, .clients__link:focus {
+  border-color: #2196F3;
 }
 
 .footer {
@@ -1009,10 +1017,6 @@ img {
 
 .join__link:hover, .join__link:focus {
   background-color: var(--accent-color);
-}
-
-.join {
-  margin-left: 70px;
 }
 
 .join-form {

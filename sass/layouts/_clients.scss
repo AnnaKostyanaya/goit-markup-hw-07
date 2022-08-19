@@ -46,9 +46,9 @@
     }
 }
 
-.clients__items {
+.clients__link {
     &:hover,
     &:focus {
-        border: 1px solid #2196F3;
+        border-color: #2196F3;
     }
 }
