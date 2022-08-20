@@ -75,6 +75,10 @@
     margin-bottom: 10px;
 }
 
+.modal__field--last-child {
+    margin-bottom: 0px;
+}
+
 .modal__label{
     padding: 0;
     margin-bottom: 4px;
@@ -101,12 +105,16 @@
 }
 
 .modal__label--checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 18px;
     font-family: inherit;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    color: var(--grey-fontcolor);
 }
 
 .modal__link {
@@ -135,7 +143,6 @@
 .modal__checkbox {
     display: flex;
     align-items: center;
-    align-content: left;
     justify-content: center;
 }
 

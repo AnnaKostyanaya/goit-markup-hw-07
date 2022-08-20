@@ -656,6 +656,10 @@ img {
   margin-bottom: 10px;
 }
 
+.modal__field--last-child {
+  margin-bottom: 0px;
+}
+
 .modal__label {
   padding: 0;
   margin-bottom: 4px;
@@ -682,12 +686,16 @@ img {
 }
 
 .modal__label--checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 18px;
   font-family: inherit;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: var(--grey-fontcolor);
 }
 
 .modal__link {
@@ -716,7 +724,6 @@ img {
 .modal__checkbox {
   display: flex;
   align-items: center;
-  align-content: left;
   justify-content: center;
 }
 
@@ -1043,7 +1050,7 @@ img {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 70px;
+  padding-left: 16px;
 }
 
 .join-form__label {
